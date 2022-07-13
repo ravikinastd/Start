@@ -24,3 +24,9 @@
 - Usa-se o comando **git diff** para verificar modificações feitas no working directory.
 - Usa-se o comando **git diff --cached** ou **git diff --staged** para verificar modificações na staging area em relação ao último commit.
 - Usa-se **git diff hash hash** para visualizar mudanças de um commit para o outro.
+
+## Métodos para apontar para um commit anterior (ou posterior)
+
+- Usa-se **git reset --soft** para apontar para um commit desejado mantendo a staging area e o working directory atual. 
+- Usa-se **git reset --mixed** para apontar para um commit desejado mantendo somente o working directory atual.
+- Usa-se **git reset --hard** para apontar para um commit desejado. O modo *hard* faz com que o arquivo do working directory fique na forma do commit desejado de forma irreversível.
