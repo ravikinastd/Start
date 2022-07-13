@@ -18,3 +18,9 @@
 - Para a exclusão de diretórios que contém arquivos e/ou sub diretórios, usa-se **rm -r**
 - Para a exclusão de arquivos com extensões especificas, usa-se **rm dir (*)** (sem os parenteses)
 *Ao deletar um diretório com a pasta .git, temos a exclusão de um repositório git local.*
+
+## Verificando diferenças/mudanças no conteúdo de arquivos
+
+- Usa-se o comando **git diff** para verificar modificações feitas no working directory.
+- Usa-se o comando **git diff --cached** ou **git diff --staged** para verificar modificações na staging area em relação ao último commit.
+- Usa-se **git diff hash hash** para visualizar mudanças de um commit para o outro.
