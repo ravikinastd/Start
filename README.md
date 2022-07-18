@@ -3,7 +3,7 @@
 ## Comandos Básicos
 - Criar um diretório - **mkdir**
 - Criar um arquivo - **touch nome**
-- Criar um reporitório Git - **git init**
+- Criar um repositório Git - **git init**
 
 ## Sobre verificação de repositórios e arquivos
 - Verificar o status (criações, exclusões, modificações) atual de arquivos - **git status**
@@ -37,4 +37,14 @@
 - Usa-se **git branch nome** para criar um branch
 - Usa-se **git branch** para visualizar os branches criados e localizar o branch atual (sinalizado com um asterisco)
 - Usa-se **git checkout nome** para apontar para um branch existente. 
-- Usa-se **git checkout -b nome** para criar e acessar um branch ao mesmo tempo.  
+- Usa-se **git checkout -b nome** para criar e acessar um branch ao mesmo tempo.
+
+## Repositório local x Remoto 
+- Para conectar um repositório local à um remoto (vice-versa), usa-se:
+**git remote add nome (normalmente utiliza-se 'origin') git@github.com:user-do-github/nome-do-repositorio.git**
+- Um commit local não é automaticamente um commit remoto.
+- Para atualizar, é necessário utilizar o **push**
+
+### Sobre o comando 'push'
+- Serve para encaminhar modificações locais para o repositório remoto.
+- Usa-se **git push -u nome-do-destino-remoto (origin) nome-do-branch** para realizar tal ação.
