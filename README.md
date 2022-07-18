@@ -3,7 +3,7 @@
 ## Comandos Básicos
 - Criar um diretório - **mkdir**
 - Criar um arquivo - **touch nome**
-- Criar um reporitório Git - **git init**
+- Criar um repositório Git - **git init**
 
 ## Sobre verificação de repositórios e arquivos
 
