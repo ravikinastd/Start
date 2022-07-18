@@ -30,3 +30,11 @@
 - Usa-se **git reset --soft** para apontar para um commit desejado mantendo a staging area e o working directory atual. 
 - Usa-se **git reset --mixed** para apontar para um commit desejado mantendo somente o working directory atual.
 - Usa-se **git reset --hard** para apontar para um commit desejado. O modo *hard* faz com que o arquivo do working directory fique na forma do commit desejado de forma irreversível.
+
+## Sobre Branches
+
+- A HEAD aponta para um branch que aponta para a hash de um commit.
+- Usa-se **git branch nome** para criar um branch
+- Usa-se **git branch** para visualizar os branches criados e localizar o branch atual (sinalizado com um asterisco)
+- Usa-se **git checkout nome** para apontar para um branch existente. 
+- Usa-se **git checkout -b nome** para criar e acessar um branch ao mesmo tempo.  
