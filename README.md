@@ -31,6 +31,14 @@
 - Usa-se **git reset --mixed** para apontar para um commit desejado mantendo somente o working directory atual.
 - Usa-se **git reset --hard** para apontar para um commit desejado. O modo *hard* faz com que o arquivo do working directory fique na forma do commit desejado de forma irreversível.
 
+## Sobre git revert
+
+- Usa-se para reverter alterações em um commit.
+- Usa-se **git revert hash** para reverter com a possibilidade de editar a descrição do commit, além de poder abortar a reversão com **git revert -abort**
+- Usa-se **git revert --no-edit hash** para reverter imediatamente sem a possibilidade de edição.
+- Usa-se **git revert --no-commit** para ter a possibilidade de realizar ajustes antes que a reversão seja commitada.
+*Após um **git revert**, a utilização imediata de um ctrl+z, permite que mantenhamos as alterações anteriormente feitas no working directory*
+
 ## Sobre Branches
 
 - A HEAD aponta para um branch que aponta para a hash de um commit.
