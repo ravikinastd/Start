@@ -38,6 +38,9 @@
 - Usa-se **git branch** para visualizar os branches criados e localizar o branch atual (sinalizado com um asterisco)
 - Usa-se **git checkout nome** para apontar para um branch existente. 
 - Usa-se **git checkout -b nome** para criar e acessar um branch ao mesmo tempo.
+- Usa-se **git branch -m nome** para renomear um branch local
+*Não é possivel renomear diretamente um branch remoto*
+- Usa-se **git push origin --delete nome** para deletar um branch remoto e posteriormente fazer um *push* para adiciona-lo novamente, desta vez renomeado.
 
 ## Repositório local x Remoto 
 - Para conectar um repositório local à um remoto (vice-versa), usa-se:
